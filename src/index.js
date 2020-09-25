@@ -112,7 +112,7 @@ function unCL(cnnumb) {
 		var n = 0, u = 0;
 		if (~(n = this.ch.indexOf(chr))) {
 			//_num = _num*10 + n;
-			if (n > 0) _num_a.unshift(n);
+			if (n >= 0) _num_a.unshift(n);
 			//_num_a.unshift(n);
 		} else if (~(u = this.ch_u.indexOf(chr))) {
 			var digit = utils.getDigit(u);
